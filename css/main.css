@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+main {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    flex-direction: column;
+    height: 80vh;
+}
+
+input {
+    border: 5px solid #A9A9A9;
+    height: 70px;
+    width: 135px;
+    text-align: center;
+    font-size: 32px;
+    margin: 13px;
+    border-radius: 10%;
+}
+
+button {
+    background-color: #A9A9A9;
+    border: 5px solid #A9A9A9;
+    height: 70px;
+    width: 70px;
+    margin: 13px;
+    border-radius: 15%;
+    color: white;
+    font-size: 32px;
+
+}
+
+.calc {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
